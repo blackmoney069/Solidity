@@ -9,8 +9,9 @@ To deploy this we run the command.
 This will compile the code and check for any errors. Just make sure that the version of the solidity is compatible with truffle.
 Then we have to get intot the develop env by typing
 `truffle develop`
-This will run the etheruem virtual machine on the machine and we will be provided with some proxy account addresses and private keys. After that we will migrate the changes to the chain using
+This will run the etheruem virtual machine on the machine and we will be provided with some proxy account addresses and private keys. After that we will migrate the changes to the chain using<br>
 `truffle migrate`
 
 now to run that instance we create a variable named instance and then run 
 `instance.hello()`
+
