@@ -21,3 +21,8 @@ now to run that instance we create a variable named instance and then run
 - storage
 - arrays 
 - Byte Arrays
+- Loops
+- IF/Else statements and Booleans
+- Structs
+
+
