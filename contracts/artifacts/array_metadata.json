@@ -6,50 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "array",
+				"name": "getter",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getage",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getname",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -59,18 +28,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newage",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "insertAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAge",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -89,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/identity.sol": "identity"
+			"contracts/array.sol": "array"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -103,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/identity.sol": {
-			"keccak256": "0x614d366f91c359a083eaf81053928b9e1f8ca41d1ac030edee0daa414fb07a28",
+		"contracts/array.sol": {
+			"keccak256": "0x5715a6d41bc6029be4d3fbe11628671f8b91dd48f184c4adcfd6190e293078f5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5395bcbb3b0e1b8223a037d0193361d7298d638c06ee8fadf68f7479e1c68835",
-				"dweb:/ipfs/QmSAgsR6syFGwRHn2vDEC7HR6ob2htqB2DeJt8JAjAHo3R"
+				"bzz-raw://93ff0428bc09a9efd26b8e3144bc60dcf8adb905ce7e4e0a2d227be42694b4e0",
+				"dweb:/ipfs/QmXX3qoX3y6C9MbD1ZkqMJnWhSRmgHKtdy2ZqFZzSzaZwL"
 			]
 		}
 	},

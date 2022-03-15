@@ -21,4 +21,9 @@ contract identity{
     function setAge() public{
         age = age+1;
     }
+
+    function insertAge(uint newage) public{
+        age = newage;
+    }
+
 }
