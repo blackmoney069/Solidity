@@ -15,3 +15,9 @@ This will run the etheruem virtual machine on the machine and we will be provide
 now to run that instance we create a variable named instance and then run 
 `instance.hello()`
 
+
+[] In the next phase we just used the VScode extension of Remix IDE to run and deploy smart contracts on the Etheruem Virtual Machine. We learned about
+- functions
+- storage
+- arrays 
+- Byte Arrays
