@@ -24,5 +24,10 @@ now to run that instance we create a variable named instance and then run
 - Loops
 - IF/Else statements and Booleans
 - Structs
-
+- ENum (similar to boolean, have integral values for strings)
+- Mapping
+- storage
+- Contract balance
+- payments
+- Public, Private, internal and external and inherited functions
 
