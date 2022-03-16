@@ -6,34 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "smvdu",
+				"name": "d3",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
+						"internalType": "enum enumDemo.divi",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -41,15 +20,34 @@
 			},
 			{
 				"inputs": [],
-				"name": "user1",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "enum universy.user",
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNum",
+				"outputs": [
+					{
+						"internalType": "enum enumDemo.divi",
 						"name": "",
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -66,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/structs.sol": "universy"
+			"contracts/enum.sol": "enumDemo"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -80,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/structs.sol": {
-			"keccak256": "0xc5bff7b4bafbc36242ca0a7bb64e2ca69501c798368607e04a6bd1c756576b24",
+		"contracts/enum.sol": {
+			"keccak256": "0x7bc8ec5d3287e1bcb904b978f8527101d480e23687dc14dc4605835cd97f3666",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://aad7ee1ad77aa8608215a23381aa40fbbc85fd1ea259f31b43ae1e00bfbd4bc3",
-				"dweb:/ipfs/QmZSyoM85AmNHe7Zti3tnVQeshnU9uCCVRRv8Y88feYDyz"
+				"bzz-raw://0b57255af2c7c11b6e48215236af176d8f37e323f17f06ffb9f40149bb826876",
+				"dweb:/ipfs/QmZeoC4ZeRkPHz9a2AUMMQrHPTtzQ3gYHc7Af1BFhr999w"
 			]
 		}
 	},
